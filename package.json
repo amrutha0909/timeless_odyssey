@@ -1,0 +1,16 @@
+{
+  "name": "chronos-fest",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1",
+    "firebase": "^10.7.0"
+  },
+  "description": "An immersive, time-traveling college festival website",
+  "author": "",
+  "license": "ISC"
+}
