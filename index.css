@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-[#a87b00] via-[#8b6500] to-[#614700] text-gray-100;
+  }
+}
+
+@layer utilities {
+  .glass-morphism {
+    @apply bg-white/10 backdrop-blur-lg;
+  }
+}
